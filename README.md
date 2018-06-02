@@ -13,4 +13,4 @@
 * jQuery
 * Font Awesome
 * Weather Icons
-* freeCodeCamp weather API
+* freeCodeCamp Weather API
