@@ -1,0 +1,107 @@
+/*common layout related*/
+html, body {
+  width: 100%;
+  height: 100%; /*html heigh 100%: to reveal background: radial-gradient*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #87cefa;
+  background: radial-gradient(60rem circle at top right, #fffafa, #87cefa, #87ceeb, #00bfff);
+}
+
+#wrap {
+  min-width: 18.75rem;
+  min-height: 25rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -9.375rem;
+}
+
+#circle{
+  margin-bottom: 1.25rem;
+  border-radius: 100% 100%;
+  background: #9fbfdf;
+  background: linear-gradient(#c6d9ec 0, #9fbfdf 30%, #79a6d2 60%, #538cc6 90%);
+}
+
+
+/*div sections*/
+#time, #location {
+  width: 18.75rem;
+  height: 3.75rem;
+  text-align: center;
+  line-height: 3.75rem;
+}
+
+#weather, #temp {
+  width: 18.75rem;
+  height: 5.625rem;
+  text-align: center;
+  line-height: 3.75rem;
+}
+
+
+/*font related*/
+h1, #anounce, #copyright{
+  text-align: center;  
+}
+
+h1 {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  color: #006699;
+  text-shadow: 0.1875rem 0.1875rem 0.375rem #e6f9ff;
+}
+
+.wi{
+    font-family: 'weathericons';
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: normal;
+    color: #fffafa;
+}
+
+span,  #anounce, #copyright, a {
+  color: #e6f9ff;
+}
+
+span {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#timeinfo {
+  font-size: 1.25rem;
+}
+
+#locationinfo {
+  font-size: 1.5625rem;
+}
+
+#tempinfo {
+  font-size: 3.125rem;
+}
+
+#tempscale {
+  font-size: 2rem;
+  color: #000066;
+}
+
+#tempscale:hover {
+  color: #660066;
+  cursor: pointer; 
+}
+
+#msg {
+  font-size: 1rem;
+}
+
+#anounce, #copyright{
+  font-size: 0.75rem;
+  line-height: 0.1875em;
+}
+
+a {
+  text-decoration: none;
+}
+
