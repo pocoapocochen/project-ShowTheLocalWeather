@@ -1,6 +1,6 @@
 # project-ShowTheLocalWeather
-* Project topic from: the Legacy Front End Development Course of freeCodeCamp
-* [Live](https://codepen.io/pocoapocochen/full/yjaJRL) version
+* Project topic from: freeCodeCamp - the Legacy Front End Development Course
+* [Live](https://pocoapocochen.github.io/project-ShowTheLocalWeather/) version
 
 ## User Story
 * I can see the weather in my current location.
