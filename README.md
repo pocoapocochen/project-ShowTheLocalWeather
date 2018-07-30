@@ -1,5 +1,5 @@
 # project-ShowTheLocalWeather
-* Project topic from: freeCodeCamp - Legacy Front End Development Course
+* Project topic from: freeCodeCamp - Legacy Front End Projects- Show the Local Weather
 * [Live](https://pocoapocochen.github.io/project-ShowTheLocalWeather/) version
 
 ## User Story
