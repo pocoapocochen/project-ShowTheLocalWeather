@@ -69,7 +69,7 @@ function getInfo (lat, lon) {
         wicon = "wi wi-na";
        } // end switch 
         
-        if (wicon == "wi wi-day-sunny" && ( hour <= 04 || hour >= 18 )) 
+        if (wicon == "wi wi-day-sunny" && ( hour <= 4 || hour >= 18 )) 
         {wicon = "wi wi-night-clear";} 
       
       return wicon; 
